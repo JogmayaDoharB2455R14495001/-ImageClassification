@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+<title>Image Classification</title>
+</head>
+<body>
+
+<div class="container">
+    <h1>Image Classification</h1>
+    <h3>Login</h3>
+
+    <form method="post">
+        <input type="email" name="email" placeholder="Email" required>
+        <input type="password" name="password" placeholder="Password" required>
+        <button type="submit">Login</button>
+    </form>
+
+    <br>
+    <a href="/register"><button>Create Account</button></a>
+</div>
+
+</body>
+</html>
